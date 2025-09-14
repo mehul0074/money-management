@@ -1,7 +1,14 @@
 {
-  "name": "client",
+  "name": "MoneyView",
+  "slug": "money-view",
+  "orientation": "portrait",
+  "icon": "./assets/icon.png",
   "version": "1.0.0",
   "main": "index.js",
+  "android": {
+    "package": "tech.beonline.moneyview",
+    "versionCode": 1
+  },
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -9,10 +16,25 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/vector-icons": "^15.0.2",
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@react-native-community/datetimepicker": "^8.4.5",
+    "@react-navigation/bottom-tabs": "^7.4.7",
+    "@react-navigation/native": "^7.1.17",
+    "@react-navigation/stack": "^7.4.8",
     "expo": "~54.0.7",
+    "expo-document-picker": "^14.0.7",
+    "expo-file-system": "^19.0.14",
+    "expo-image-manipulator": "^14.0.7",
+    "expo-image-picker": "^17.0.8",
+    "expo-sharing": "^14.0.7",
+    "expo-sqlite": "^16.0.8",
     "expo-status-bar": "~3.0.8",
     "react": "19.1.0",
-    "react-native": "0.81.4"
+    "react-native": "0.81.4",
+    "react-native-safe-area-context": "^5.6.1",
+    "react-native-screens": "^4.16.0",
+    "react-native-vector-icons": "^10.3.0"
   },
   "private": true
 }

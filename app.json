@@ -1,12 +1,13 @@
 {
   "expo": {
-    "name": "client",
-    "slug": "client",
+    "name": "Money Manager",
+    "slug": "money-manager",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
+    "description": "Track your financial transactions and manage money lending/borrowing",
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -20,10 +21,16 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.mundhava.moneymanager"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9685f24e-5f23-4568-8adf-ad07f6919d26"
+      }
     }
   }
 }
